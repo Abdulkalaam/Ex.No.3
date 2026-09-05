@@ -1,7 +1,7 @@
 # Ex. No. 3 — Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
-###Date: 5.09.2026
-###Register Number:212223230003
+### Date: 5.09.2026
+### Register Number:212223230003
 
 ## Aim
 
