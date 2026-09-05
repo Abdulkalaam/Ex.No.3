@@ -1,112 +1,94 @@
-# Ex. No. 3 — Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
-### Date: 5.09.2026
-### Register Number:212223230003
+### DATE: 2-09-2026                                                                        
+### REGISTER NUMBER : 2122233230003
+### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
 
-## Aim
+### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
+Procedure:
+#### 1.	Straightforward Prompts:
+QUESTION: List three advantages of electric vehicles.
+##### CHATGPT
+Less pollution: Electric vehicles produce no tailpipe emissions, helping reduce air pollution.
+Lower running costs: Electricity is generally cheaper than petrol or diesel, and EVs usually require less maintenance.
+Energy efficient: Electric motors convert a larger share of electrical energy into movement compared with petrol or diesel engines.
 
-To write prompts for the following prompt engineering types and evaluate them:
+##### GEMINI
+1. Lower Running Costs: Electricity is generally significantly cheaper than gasoline or diesel per mile, and EVs require much less maintenance since they don't need oil changes, spark plugs, or complex exhaust systems.
+2. Zero Tailpipe Emissions: Because they run entirely on battery power, EVs produce no exhaust emissions while driving, which helps improve local air quality and reduces greenhouse gas emissions.
+3. Instant Torque and Smooth Performance: Electric motors deliver maximum power immediately from a standstill, providing quick, responsive acceleration and a quiet, smooth ride without the vibration of a traditional engine.
+   
+#### 2.Tabular Format Prompting:
+QUESTION: Compare and contrast AC and DC current in a table.
+##### CHATGPT
+<img width="896" height="432" alt="image" src="https://github.com/user-attachments/assets/2fd909fd-6104-4308-9057-4768bd9733fd" />
 
-1. Straightforward Prompts
-2. Tabular Format Prompting
-3. Preceding Question Prompting
-4. Missing Word Prompting
 
-## Problem Statement / Explanation
+##### GEMINI
+<img width="796" height="607" alt="image" src="https://github.com/user-attachments/assets/49567d94-e12c-4113-afd7-f0ade34d457c" />
 
-Prompt engineering is the practice of designing inputs to a generative AI/LLM system so that it produces the most accurate, relevant, and useful output. Different prompting styles suit different goals — a direct instruction works well for simple factual recall, a tabular prompt is ideal when structured comparison is needed, a preceding-question prompt frames context before asking for an explanation, and a missing-word (cloze-style) prompt tests or elicits precise, targeted recall. This report takes one use case — **explaining core science and technology concepts to a learner** — and demonstrates it across all four prompt types, evaluating the output quality of each.
 
-## Algorithm / Procedure
+#### 3. Preceding Question Prompting:
+QUESTION: Why is climate change a global concern? Explain how greenhouse gases contribute to global warming.
+##### CHATGPT
+Climate change is a global concern because it affects every country and has serious impacts on the environment, human health, agriculture, and economies worldwide. Rising global temperatures lead to melting glaciers, sea level rise, extreme weather events such as floods, droughts, and hurricanes, and loss of biodiversity. These effects threaten food security, water availability, and the livelihoods of millions of people. Since greenhouse gases released in one part of the world spread throughout the atmosphere, climate change cannot be solved by a single nation; it requires international cooperation and collective action.
 
-**Step 1: Straightforward Prompts** Give the model a direct, unambiguous instruction with no additional framing, and evaluate the directness and conciseness of the response.
+Greenhouse gases, such as carbon dioxide (CO₂), methane (CH₄), and nitrous oxide (N₂O), contribute to global warming through the greenhouse effect. Sunlight passes through the Earth's atmosphere and warms the planet's surface. The Earth then emits heat in the form of infrared radiation. Greenhouse gases absorb and trap some of this heat, preventing it from escaping into space. This natural process keeps the Earth warm enough to support life. However, human activities such as burning fossil fuels, deforestation, and industrial processes have significantly increased the concentration of greenhouse gases in the atmosphere. As a result, more heat is trapped, causing the Earth's average temperature to rise, leading to global warming and long-term climate change.
 
-**Step 2: Tabular Format Prompting** Instruct the model to structure its output as a table with defined columns, and evaluate clarity and ease of comparison.
+##### GEMINI
+Why Climate Change is a Global Concern
+Climate change transcends national borders because the Earth's atmosphere and oceans operate as a single, interconnected system. A disruption in one part of the world triggers a domino effect globally, leading to consequences that no single country can escape:
 
-**Step 3: Preceding Question Prompting** Pose a question first, followed by a request for explanation, to give the model explicit context before the detailed answer, and evaluate depth and relevance.
+Extreme Weather Events: It fuels more frequent and severe wildfires, prolonged droughts, catastrophic flooding, and intense hurricanes, devastating infrastructure and economies worldwide.
 
-**Step 4: Missing Word Prompting** Give the model a sentence with a blank ("___") and ask it to complete it, and evaluate factual accuracy and precision.
+Rising Sea Levels: Melting glaciers and ice sheets, combined with the thermal expansion of warming seawater, threaten to submerge coastal cities and low-lying island nations, displacing millions of people.
 
-**Step 5: Evaluation** Compare outputs from all four types against the criteria: *clarity, structure, accuracy, and usefulness*, and record observations.
+Threats to Food and Water Security: Shifting weather patterns and unpredictable rainfall disrupt agricultural cycles, leading to crop failures, food shortages, and severe water scarcity.
 
----
+Biodiversity Loss: Ecosystems are changing faster than many species can adapt, leading to habitat destruction and a massive acceleration of extinction rates.
 
-## 1. Straightforward Prompts
+Economic and Humanitarian Crises: The resulting resource scarcity, climate migration, and damage to infrastructure cost trillions of dollars and risk sparking geopolitical instability and conflict.
 
-**Prompt A:** "Define blockchain in one sentence."
-**Generated Output:** Blockchain is a distributed digital ledger that records transactions across many computers so that entries cannot be altered retroactively without changing all later records.
+How Greenhouse Gases Contribute to Global Warming
+To understand global warming, it helps to look at the Greenhouse Effect—a natural process that keeps our planet habitable, which human activity has pushed into overdrive.
 
-**Prompt B:** "List three advantages of solar energy."
-**Generated Output:**
-1. Renewable and abundant, since sunlight is naturally replenished.
-2. Produces no direct emissions during electricity generation.
-3. Reduces long-term electricity bills once panels are installed.
+Here is the step-by-step mechanism of how greenhouse gases (GHGs) like carbon dioxide
+[ Solar Radiation ] 
+       │
+       ▼ (Passes through atmosphere)
+ 🌍 Earth's Surface (Absorbs light, warms up, and radiates infrared heat back out)
+       │
+       ▼ (Heat travels upward)
+ ☁️ GHG Molecules (Absorb the infrared heat and re-radiate it in all directions)
+       │
+       ├──► Space (Some heat escapes)
+       └──► 🌍 Back to Earth (Trapped heat warms the planet further)
+Solar Energy Absorbed: The sun radiates solar energy toward Earth, mostly in the form of visible light. The atmosphere is transparent to this shortwave radiation, allowing it to pass through and warm the Earth's surface.
 
-**Evaluation:** Straightforward prompts produce quick, concise, directly usable answers. Best suited for simple fact retrieval or short lists, but they offer little structure for comparing multiple attributes at once.
+Infrared Radiation Emitted: The warmed planet radiates energy back toward space. However, because the Earth is much cooler than the sun, it emits this energy as longwave, infrared radiation (heat).
 
----
+Heat Absorption by GHGs: While visible light passes right through greenhouse gases, infrared radiation does not. GHG molecules possess a chemical structure that allows them to absorb these outgoing infrared photons.
 
-## 2. Tabular Format Prompting
+Re-radiation of Heat: Once a GHG molecule absorbs this thermal energy, it vibrates and quickly releases (re-radiates) the energy in all directions. Some of this heat escapes into space, but a significant portion is shot right back down toward the Earth's surface.
 
-**Prompt A:** "Compare and contrast HTTP and HTTPS in a table."
+The Warming Blanket: By burning fossil fuels, deforestation, and industrial agriculture, humans have rapidly increased the concentration of these gases. This thickens the atmospheric "blanket," trapping more heat than normal and steadily driving up global temperatures.
+    
+#### 4. Missing Word Prompting:
+QUESTION: The capital of France is ____.
+##### CHATGPT
+The capital of Paris is Paris.
 
-**Generated Output:**
+##### GEMINI
+The capital of France is Paris.
 
-| Feature | HTTP | HTTPS |
-|---|---|---|
-| Full form | HyperText Transfer Protocol | HTTP Secure |
-| Security | Data sent in plain text | Data encrypted using SSL/TLS |
-| Port used | 80 | 443 |
-| Speed | Slightly faster | Marginally slower due to encryption |
-| Use case | Non-sensitive browsing | Login pages, payments, sensitive data |
+### Conclusion 
+Both ChatGPT and Gemini generated accurate and relevant responses for all four prompting techniques: Straightforward Prompts, Tabular Format Prompting, Preceding Question Prompting, and Missing Word Prompting.
 
-**Prompt B:** "Provide a table listing four types of computer memory, their speed, and one use case each."
+ChatGPT provided concise, direct, and easy-to-understand answers, making it highly suitable for academic reports, quick learning, and obtaining precise information. Gemini, on the other hand, produced more detailed and descriptive responses with additional explanations and examples, which are useful for gaining a deeper understanding of the concepts.
 
-**Generated Output:**
+In the Straightforward Prompt, both models correctly listed the advantages of electric vehicles. In the Tabular Format Prompt, both effectively compared AC and DC current using well-structured tables. In the Preceding Question Prompt, both clearly explained climate change and the greenhouse effect, with Gemini offering a more elaborate explanation. In the Missing Word Prompt, both correctly identified Paris as the capital of France.
 
-| Memory Type | Speed | Use Case |
-|---|---|---|
-| Cache | Fastest | Storing frequently used CPU data |
-| RAM | Very fast | Running active programs |
-| SSD | Fast | Primary storage in modern laptops |
-| HDD | Slow | Bulk, low-cost long-term storage |
+Based on this evaluation, ChatGPT is more effective for generating simple, clear, and well-structured outputs, whereas Gemini is better for detailed and explanatory responses. Therefore, ChatGPT can be considered more suitable for prompt engineering experiments and report. generation where concise and precise answers are preferred.
 
-**Evaluation:** Tabular prompting excels when the goal is side-by-side comparison of multiple items across shared attributes. It significantly improves readability over prose for multi-point comparisons but is unnecessary for single-fact answers.
-
----
-
-## 3. Preceding Question Prompting
-
-**Prompt A:** "Why is data privacy a growing concern? Explain how anonymization protects user data."
-**Generated Output:** Data privacy is a growing concern because companies collect vast amounts of personal information, and breaches or misuse can lead to identity theft, financial loss, or surveillance. Anonymization protects user data by removing or altering identifying details — such as names or ID numbers — so that individuals cannot be traced back from the dataset, allowing organizations to analyze data patterns while reducing the risk of exposing personal identities.
-
-**Prompt B:** "How do satellites stay in orbit? Describe the balance of forces involved."
-**Generated Output:** Satellites stay in orbit because of a balance between two forces: gravity, which continuously pulls the satellite toward Earth, and its forward velocity, which pushes it in a straight line. Because the satellite is moving fast enough sideways, it keeps "falling" toward Earth at the same rate the Earth's surface curves away beneath it, resulting in a stable circular or elliptical path around the planet.
-
-**Evaluation:** Framing a question before requesting an explanation guides the model toward a more contextual, motivated response — it explains *why* something matters before *how* it works, producing richer, more pedagogically structured answers than a bare instruction.
-
----
-
-## 4. Missing Word Prompting
-
-**Prompt A:** "The powerhouse of the cell is the ___."
-**Generated Output:** The powerhouse of the cell is the **mitochondria**.
-
-**Prompt B:** "In networking, an IP address that stays the same is called a ___ IP."
-**Generated Output:** In networking, an IP address that stays the same is called a **static** IP.
-
-**Evaluation:** Missing-word (cloze) prompting is highly effective for testing or eliciting precise factual recall with minimal output — ideal for quizzes, flashcards, or verifying a model's grasp of a specific fact. It is not suited to open-ended or explanatory tasks.
-
----
-
-## Comparative Summary
-
-| Prompt Type | Best For | Output Style | Limitation |
-|---|---|---|---|
-| Straightforward Prompts | Quick facts, short lists | Concise, direct | Limited structure for comparisons |
-| Tabular Format Prompting | Multi-attribute comparisons | Structured, scannable | Overkill for single facts |
-| Preceding Question Prompting | Contextual explanations | Detailed, motivated | Longer, less concise |
-| Missing Word Prompting | Precise factual recall | Minimal, targeted | Not suited for explanations |
-
-## Conclusion
-
-Each prompting technique serves a distinct purpose and produces a different kind of output. Straightforward prompts work best for quick facts, tabular prompting suits multi-point comparisons, preceding-question prompting produces deeper contextual explanations, and missing-word prompting is ideal for testing precise recall. Choosing the right prompt type depends on the task's goal — brevity, comparison, depth, or precision.
+# Result: 
+Thus the Prompts were exected succcessfully.
